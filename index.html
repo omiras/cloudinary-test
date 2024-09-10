@@ -15,7 +15,7 @@
 
     <script type="text/javascript">
         var myWidget = cloudinary.createUploadWidget({
-            cloudName: 'diimb3b8g', // El nombre te lo dan al crear cuenta en Cloudinary
+            cloudName: 'diimb3b8g', // El nombre te lo dan al crear cuenta en Cloudinary. POR FAVOR NO USAR ESTA CONFIGURACIÓN TENÉIS QUE CREAR UNA CUENTA VOSOTROS. Eventualmente, habría que proteger esta información
             uploadPreset: 'public-preset' // Esto debes configurarlo tú. Buscar "upload presets" en la documentación de Cloudinary
         }, (error, result) => {
             if (!error && result && result.event === "success") {
